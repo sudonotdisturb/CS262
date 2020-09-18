@@ -1,8 +1,10 @@
-# birthdayButton
+# CS 262 - Lab 2
 
-birthdayButton takes a name and outputs the current age. This age is updated via a button, that when pressed, increments the age and appends an element containing the age to a list.
+This lab is based on [CS 262 Lab 2](https://cs.calvin.edu/courses/cs/262/kvlinden/02management/lab.html).
 
-## Questions
+Lab 2's app takes a name and outputs the current age. This age is updated via a button, that when pressed, increments the age and appends an element containing the age to a list.
+
+## Answers to the lab questions
 
 1. There are multiple components in this application: the App() function acts as the main component, while View, Text, FlatList, etc. are all child components that act within the App() function.
 
@@ -13,7 +15,3 @@ birthdayButton takes a name and outputs the current age. This age is updated via
 4. One anonymous function is pressHandler, the function that is called when the button is pressed.
 
 5. In the traditional sense, no, the application does not use HTML and/or CSS. The main component driving the app is JavaScript, with HTML and/or CSS being returned by JavaScript functions. While webpages are written in with JavaScript embedded in HTML files, JSX enables the insertion of HTML in JavaScript files.
-
-## Credentials
-
-Written by: Zachary Chin
