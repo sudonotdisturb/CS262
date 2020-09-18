@@ -8,23 +8,16 @@ The first app created in Calvin University's CS-262 class. It displays a screen 
 
 ### Exercise 1.1
 
-**************************
-Interesting and tractable
-**************************
+**Interesting and tractable**
 
-	One application that I think would be interesting is a grocery app that can pull data from stores in the user's area and compare item prices between stores. For examples, the user would be able to see if peaches at one store are cheaper than peaches at another one. The app would also be able to highlight big sales at the different stores, and would allow the user to organize grocery lists and plan out shopping routes. Essentially, it would condense all grocery shopping to one app, rather than having to look through multiple sites to compare prices and shop.
+One application that I think would be interesting is a grocery app that can pull data from stores in the user's area and compare item prices between stores. For examples, the user would be able to see if peaches at one store are cheaper than peaches at another one. The app would also be able to highlight big sales at the different stores, and would allow the user to organize grocery lists and plan out shopping routes. Essentially, it would condense all grocery shopping to one app, rather than having to look through multiple sites to compare prices and shop.
 
 
-**************************
-	  Wacky
-**************************
+**Wacky**
 
-	I also would love to build a social media app that can assist in finding something to eat for groups of people. Many couples or groups of friends typically have trouble deciding on a place to eat that everyone agrees upon, and thus this app would serve to simplify that process. Users would be able to create, in essence, a poll of restaurants/food that would be sent out to everyone in their group. The group would either be able to rank their choices, or swipe left or right on the restaurants Tinder-style. Either way, the app would choose the best restaurant for the group based on their ranking/swiping.
+I also would love to build a social media app that can assist in finding something to eat for groups of people. Many couples or groups of friends typically have trouble deciding on a place to eat that everyone agrees upon, and thus this app would serve to simplify that process. Users would be able to create, in essence, a poll of restaurants/food that would be sent out to everyone in their group. The group would either be able to rank their choices, or swipe left or right on the restaurants Tinder-style. Either way, the app would choose the best restaurant for the group based on their ranking/swiping.
 
 ### Exercise 1.2
-
-Zachary Chin
-Exercise 1.2
 
 ********************
 1. Demographics
