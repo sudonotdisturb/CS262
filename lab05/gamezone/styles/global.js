@@ -16,9 +16,8 @@ export const globalStyles = StyleSheet.create({
   },
   // hamburger menu icon
   icon: {
-    position: 'absolute',
+    position: 'relative',
     left: 16,
-    bottom: 10
   },
   // card.js
   card: {
