@@ -8,9 +8,8 @@ import ReviewDetails from '../screens/reviewDetails';
 const Stack = createStackNavigator();
 export default function HomeStack( {navigation} ) {
     return (
-        <Stack.Navigator screenOptions={{
-            headerStyle:{backgroundColor:'#ddd'}
-        }}>
+        <Stack.Navigator 
+            screenOptions={{headerStyle:{backgroundColor:'#ddd', height: 60}, headerTintColor: '#444'}}>
             <Stack.Screen
                 name="GameZone"
                 component={Home}
