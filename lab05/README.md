@@ -1,8 +1,11 @@
-This homework exercise is based on NetNinja's 
-[Todo application](https://www.youtube.com/playlist?list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ) 
-(lessons 24-26)
+# CS 262 - Lab 5
 
-Notes
-- Had to do the upgrades specified in labs 1 & 4 and homework 1.
-- Also had to do some ReactNavigation v5 upgrades.
-- We're skipping forms and modal input.
+This lab is based on [CS 262 Lab 5](https://cs.calvin.edu/courses/cs/262/kvlinden/05design/lab.html), which is based on NetNinja's 
+[Reviews application](https://www.youtube.com/playlist?list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ) (videos #24-26).
+
+Lab 5's app implements basic navigation between two pages: Home and ReviewDetails. Touchable components in the Home screen navigate to the ReviewDetails screen, which displays information based on which component was tapped.
+
+Getting this code to run required:
+- Doing the upgrades specified in labs 1 and 4, along with homework 1.
+- Upgrading to ReactNavigation 5 (see <https://reactnavigation.org/docs/upgrading-from-4.x/>).
+- Skipped forms and modal input.
