@@ -7,5 +7,8 @@ Lab 5's app implements basic navigation between two pages: Home and ReviewDetail
 
 Getting this code to run required:
 - Doing the upgrades specified in labs 1 and 4, along with homework 1.
+-- Run `npm install` to install required packages.
+-- Run `npm install @react-navigation/native @react-navigation/stack` to install navigation libraries.
+-- Run `expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view` to install navigation core utilities.
 - Upgrading to ReactNavigation 5 (see <https://reactnavigation.org/docs/upgrading-from-4.x/>).
 - Skipped forms and modal input.
