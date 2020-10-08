@@ -1,4 +1,4 @@
-# CS 262 - Lab 5
+# CS 262 - Lab 6
 
 This lab is based on [CS 262 Lab 6](https://cs.calvin.edu/courses/cs/262/kvlinden/06hci/lab.html), which is based on the "Fetch Example" from React Native's
 [Networking tutorial](https://reactnative.dev/docs/network).
