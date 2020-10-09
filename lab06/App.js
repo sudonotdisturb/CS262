@@ -10,10 +10,7 @@ export default function App() {
   useEffect(() => {
     fetch('https://www.googleapis.com/books/v1/volumes?q=jane%20austen')
       .then((response) => response.json())
-      .then((json) => {
-        setData(json.items);
-        console.log(data);
-      })
+      .then((json) => { setData(json.items); })
       .catch((error) => console.error(error))
       .finally(() => setLoading(false));
   }, []);
