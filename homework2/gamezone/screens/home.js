@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, ActivityIndicator, View, Text, TouchableOpacity, FlatList } from 'react-native';
+import { ActivityIndicator, View, Text, TouchableOpacity, FlatList } from 'react-native';
 import { globalStyles } from '../styles/global';
 import Card from '../shared/card';
 
@@ -29,7 +29,7 @@ export default function Home({ navigation }) {
                         </TouchableOpacity>
                     )} 
                 />
-            )}   
+            )}
         </View>
     );
 };
