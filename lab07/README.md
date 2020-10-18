@@ -9,11 +9,15 @@ Lab 7 uses ElephantSQL to create a simple Monopoly database and sample queries.
 ### Tables:
 
 **Player**(ID, emailAddress, name)
+
 **PlayerGame**(gameID, playerID, score, cash, currentLocation)
+
 **Game**(ID, time)
+
 **PlayerProperties**(gameID, playerID, propertyName)
+
 **PlayerBuildings**(gameID, playerID, buildingType, quantity, propertyName)
 
 --------------------------------------
 
-**PlayerBuildings(buildingType)**: “house” or “hotel”
+Note: **PlayerBuildings(buildingType)** => “house” or “hotel”
