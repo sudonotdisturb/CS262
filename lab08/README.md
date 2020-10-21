@@ -10,6 +10,12 @@ CS 262 [class 8](https://cs.calvin.edu/courses/cs/262/kvlinden/08is/class.html).
 
 ## Answers to lab questions
 
+### Exercise 8.2
+
+c) So what does that `P1.ID < P2.ID` clause do in the last example query?
+
+d) The query that joined the Player table to itself seems rather contrived. 
+Can you think of a realistic situation in which you’d want to join a table to itself?
 
 ## Database Schema
 
