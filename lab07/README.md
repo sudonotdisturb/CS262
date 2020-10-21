@@ -20,4 +20,4 @@ Lab 7 uses ElephantSQL to create a simple Monopoly database and sample queries.
 
 --------------------------------------
 
-Note: **PlayerBuildings(buildingType)** => “house” or “hotel”
+*Note*: **PlayerBuildings(buildingType)** => “house” or “hotel”
