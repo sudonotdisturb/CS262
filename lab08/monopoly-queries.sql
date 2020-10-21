@@ -1,0 +1,67 @@
+--
+-- This SQL script implements sample queries on the Monopoly database.
+--
+-- @author Zachary Chin
+-- @version Fall, 2020
+--
+
+---------------------------
+-- Single-Table Queries
+---------------------------
+
+-- Get list of all games, ordered by date with most recent game first
+-- SELECT * 
+--   FROM Game
+--   ORDER BY time DESC
+--   ;
+
+-- Get all games that occured in the past week
+SELECT *
+  FROM Game
+  -- TODO: compare today's date to those in the past week
+
+-- Get list of players who have non-NULL names
+-- SELECT *
+--   FROM Player
+--   WHERE name IS NOT NULL
+--   ;
+
+-- Get list of IDs for players who have some game score > 2000
+-- SELECT playerID
+--   FROM PlayerGame
+--   WHERE score > 2000
+--   ;
+
+-- Get list of players who have GMail accounts
+-- SELECT *
+--   FROM Player
+--   WHERE emailAddress LIKE '%gmail%'
+--   ;
+
+---------------------------
+-- Multiple-Table Queries
+---------------------------
+
+-- Get all "The King"'s game scores in decreasing order
+-- SELECT score
+--   FROM Player, PlayerGame
+--   WHERE ID = playerID
+--     AND name = 'The King'
+--   ORDER BY score DESC
+--   ;
+
+
+-- Get the name of the winner of the game played on 2006-06-28 13:20:00
+-- SELECT name
+--   FROM Player, Game, PlayerGame
+--   WHERE time = '2006-06-28 13:20:00'
+--     AND playerID = Player.ID
+--     AND gameID = Game.ID
+--   ORDER BY score DESC
+--   LIMIT 1
+--   ;
+-- Note: the game winner was 'me@calvin.edu', whose name is NULL;
+--        so the query will return NULL
+
+
+
