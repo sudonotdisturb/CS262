@@ -10,10 +10,10 @@
 ---------------------------
 
 -- Get list of all games, ordered by date with most recent game first
--- SELECT * 
---   FROM Game
---   ORDER BY time DESC
---   ;
+SELECT * 
+  FROM Game
+  ORDER BY time DESC
+  ;
 
 -- Get all games that occured in the past week
 SELECT *
