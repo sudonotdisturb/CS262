@@ -19,7 +19,7 @@ P1 and P2 names refer to separate instances of the Player table. Getting the ID 
 d) The query that joined the Player table to itself seems rather contrived. 
 Can you think of a realistic situation in which you’d want to join a table to itself?
 
-Joining a table to itself may be useful in situations like in Problem (c), when you need to compare rows or fields within a table. For example,
+Joining a table to itself may be useful in situations like in Problem (c), when you need to compare rows or fields within a table. This can be used if you need to find relationships between entries in the table. For example, if all of a company's employees are listed in a table, and each entry has a field that names the ID of the employee that manages them, joining that table to itself can return all manager-employee groups.
 
 ## Database Schema
 
