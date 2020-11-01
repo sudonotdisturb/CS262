@@ -3,7 +3,7 @@
 This is a data service application based on the [CS 262 sample Monopoly project](https://github.com/calvin-cs262-organization/monopoly-project).
 Screenshots showing the data in the database can be found here:
 
-
+[Screenshots](https://github.com/sudonotdisturb/CS262/tree/master/lab09/screenshots)
 
 In general, the application is based on the standard Heroku with Node.js tutorial.
 
