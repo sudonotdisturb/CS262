@@ -2,7 +2,7 @@
 
 This is a data service application based on the [CS 262 sample Monopoly project](https://github.com/calvin-cs262-organization/monopoly-project). It is deployed here:
 
-<https://monopoly-service.herokuapp.com/>
+https://cs262-service.herokuapp.com/
 
 Screenshots showing the data in the database can be found here:
 
