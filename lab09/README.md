@@ -1,6 +1,9 @@
 # CS 262 - Lab 9
 
-This is a data service application based on the [CS 262 sample Monopoly project](https://github.com/calvin-cs262-organization/monopoly-project).
+This is a data service application based on the [CS 262 sample Monopoly project](https://github.com/calvin-cs262-organization/monopoly-project). It is deployed here:
+
+<https://glacial-hollows-78987.herokuapp.com/>
+
 Screenshots showing the data in the database can be found here:
 
 [Screenshots](https://github.com/sudonotdisturb/CS262/tree/master/lab09/screenshots)
