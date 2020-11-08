@@ -19,7 +19,7 @@ export default function Home({ navigation }) {
         <View style={globalStyles.container}>
             {isLoading ? <ActivityIndicator/> : (
                 <FlatList 
-                    data={data} 
+                    data={data}
                     keyExtractor={({ id }, index) => id.toString()}
                     renderItem={({ item }) => (
                         <Card>
