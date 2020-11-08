@@ -1,7 +1,7 @@
-# CS 262 - Homework 1
+# CS 262 - Homework 3
 
-This homework exercise is based on [CS 262 Homework 1](https://cs.calvin.edu/courses/cs/262/kvlinden/03management/homework.html), which is further based on NetNinja's [Todo application](https://www.youtube.com/playlist?list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ) (lessons 9-15).
+This lab is based on [CS 262 Homework 3](https://cs.calvin.edu/courses/cs/262/kvlinden/09is/homework.html).
 
-Homework 1's app functions as a todo list, whereby the user can add and remove items to do. It implements alerts, keyboard dismissal, and flexboxes for a clean application interface.
+Homework 2's app expands upon [Homework 2's](https://github.com/sudonotdisturb/CS262/tree/master/lab05) application and fetches and displays data from the CS-262 sample [data service](https://github.com/calvin-cs262-organization/monopoly-service).
 
 
