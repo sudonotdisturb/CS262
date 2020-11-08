@@ -21,7 +21,16 @@ The service is deployed here: <https://cs262-service.herokuapp.com/>
 
 2. Which of these endpoints implement actions that are idempotent? nullipotent?
 
-3. Is the service RESTful? If not, why not? If so, what key features make it RESTful.
+All of the endpoints are HTTP `GET` commands, so all of them are both idempotent and nullipotent.
+
+3. Is the service RESTful? If not, why not? If so, what key features make it RESTful?
+
+The service is RESTful, because:
+- It is stateless, since no client context is stored on the server between requests; each client request is serviced as any other request,
+regardless of how many other requests were made before it.
+- It uses the HTTP protocol, and is thus optimized for the world wide web.
+- Requests can be sent through URIs, e.g. requesting data from the Player table takes the form of <https://cs262-service.herokuapp.com/players>.
+- It returns data/responses formatted in JSON.
 
 4. Is there any evidence in your implementation of an impedance mismatch?
 
