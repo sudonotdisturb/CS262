@@ -34,4 +34,4 @@ The service is deployed here: <https://cs262-service.herokuapp.com/>
 
 4. Is there any evidence in your implementation of an impedance mismatch?
 
-
+    No; the data types used in my PostgreSQL database (varchar, integer) can be easily implemented using JavaScript's data types (string, int). In my application, names, email addresses, and current locations are all represented as strings, even though they are varchars in the database implementation. In addition, none of the tables are used as objects or classes in my application, so they preserve their relational quality.
