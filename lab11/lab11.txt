@@ -1,0 +1,27 @@
+Modules checked:
+
+	App.js
+		- "Freespace," "nunito," and "Nunito" were labeled as typos.
+
+	home.js
+		- "Knollcrest," "Uppercrust," "Peet" were labeled as typos.
+
+	about.js
+		- Names of teammates were labeled as typos.
+
+	map.js
+		- "redmarker", "bluemarker," etc. are labeled as typos.
+
+	global.js
+		- "nunito" was labeled as a typo.
+
+
+Changes made:
+
+	- map.js: Changed "redmarker" to "redMarker" to meet lowerCamelCase standards
+	- report.js: Changed local variable declaration from "var" to "let" (based on Google Javascript Style)
+
+Changes I chose not to make:
+
+	- Typos where the names were names of location, people, or fonts (i.e. "Freespace," "Uppercrust," or "nunito")
+
